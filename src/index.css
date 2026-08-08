@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-cyan: #00e5ff;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #020408;
+}
+
+/* Sophisticated Dark Theme Styles */
+.sophisticated-bg {
+  background: radial-gradient(circle at center, #0a101f 0%, #020408 100%);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 229, 255, 0.1);
+}
+
+.glass-red {
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(239, 68, 68, 0.1);
+}
+
+.glass-orange {
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(249, 115, 22, 0.1);
+}
+
+.neon-text-cyan {
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+  color: #00e5ff;
+}
+
+.neon-text-red {
+  text-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
+  color: #ef4444;
+}
+
+.neon-text-orange {
+  text-shadow: 0 0 10px rgba(249, 115, 22, 0.5);
+  color: #f97316;
+}
+
+.neon-border-cyan {
+  border: 1px solid rgba(0, 229, 255, 0.3);
+  box-shadow: 0 0 15px rgba(0, 229, 255, 0.1);
+}
+
+.neon-border-red {
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.1);
+}
+
+.neon-border-orange {
+  border: 1px solid rgba(249, 115, 22, 0.3);
+  box-shadow: 0 0 15px rgba(249, 115, 22, 0.1);
+}
+
+.arc-ring-cyan {
+  border: 2px dashed rgba(0, 229, 255, 0.4);
+  border-radius: 50%;
+}
+
+.arc-ring-red {
+  border: 2px dashed rgba(239, 68, 68, 0.4);
+  border-radius: 50%;
+}
+
+.arc-ring-orange {
+  border: 2px dashed rgba(249, 115, 22, 0.4);
+  border-radius: 50%;
+}
+
+.mono {
+  font-family: 'Courier New', Courier, monospace;
+}
+

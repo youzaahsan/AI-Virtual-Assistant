@@ -1,0 +1,6 @@
+{
+  "name": "Jarvis AI Assistant",
+  "description": "Inspired by Iron Man's Jarvis, this futuristic conversational assistant features continuous voice control, glowing neon HUD telemetry, face detection scanner, system diagnostic meters, and a Python desktop generator.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
